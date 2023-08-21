@@ -12,7 +12,8 @@ export class OmdbService {
   constructor(private http: HttpClient) { }
 
   getResult(title: string): Observable<any> {
-    const formattedTitle = title.replace(/ /g, '%20');
+    const trimmedTitle = title.trim();
+    const formattedTitle = trimmedTitle.replace(/ /g, '%20');
     const url = `${this.apiUrl}/${formattedTitle}`;
 
     const headers = new HttpHeaders({
