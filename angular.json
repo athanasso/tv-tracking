@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tv-tracker-app": {
+    "tv-tracking-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tv-tracker-app",
+            "outputPath": "dist/tv-tracking-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tv-tracker-app:build:production"
+              "browserTarget": "tv-tracking-app:build:production"
             },
             "development": {
-              "browserTarget": "tv-tracker-app:build:development"
+              "browserTarget": "tv-tracking-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tv-tracker-app:build"
+            "browserTarget": "tv-tracking-app:build"
           }
         },
         "test": {
