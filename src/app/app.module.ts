@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { TvShowListComponent } from './components/tv-show-list/tv-show-list.component';
 import { MovieListComponent } from './components/movie-list/movie-list.component';
 import { MediaSearchComponent } from './components/media-search/media-search.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MediaSearchComponent } from './components/media-search/media-search.com
     TvShowListComponent,
     MovieListComponent,
     MediaSearchComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
