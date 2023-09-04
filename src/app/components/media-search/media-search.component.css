@@ -32,10 +32,13 @@ button:hover {
 }
 
 .card-item {
-  width: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-image {
+  flex-grow: 1;
   width: 100%;
   height: auto;
 }
